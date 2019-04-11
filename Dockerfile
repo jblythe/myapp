@@ -7,4 +7,4 @@ WORKDIR /opt/jblythe
 RUN git clone https://github.com/jblythe/myapp.git
 
 RUN pip install -r myapp/requirements.txt
-CMD myapp/python app.py
+CMD python myapp/app.py
